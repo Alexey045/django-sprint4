@@ -150,3 +150,13 @@ media/
 
 sent_emails/
 
+.env.*
+!.env.example
+.venv/
+.ruff_cache/
+*.sqlite3
+*.sqlite3-journal
+*.db
+node_modules/
+.npm-cache/
+staticfiles/
